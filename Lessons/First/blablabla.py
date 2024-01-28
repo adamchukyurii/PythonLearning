@@ -1,4 +1,4 @@
-
+# variables types and conditions 
 
 # fullname = name + " " + lastname
 # fullname = "{} {}".format(name, lastname)
