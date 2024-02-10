@@ -1,2 +1,11 @@
 Learning work with GIT:
 
+git commit -amend for changing staged commit 
+
+what is branch - link to a commit
+
+merging branches with merge or rebase:
+   merge if in main branch nothing has changed
+   rebase if in main branch was changed 
+
+git push - send git pull - recive 
