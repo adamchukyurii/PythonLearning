@@ -65,3 +65,16 @@ if not user_input % 2 == 0:
       for l in range(right_spaces):
          print(" ", end="")
       print()
+else:
+   print("Enter please odd number");
+num = 7
+max_row = num // 2
+
+for i in range(num):
+   if i <= max_row:
+      stars = " " * (max_row - 1) + "*" * (i * 2 + 1)
+   else:
+      stars = " " * (i - max_row) + "*" * ((num - i - 1) * 2 + 1)
+   print(stars)
+   
+   
